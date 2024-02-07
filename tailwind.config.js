@@ -19,7 +19,9 @@ export default {
         "palette-card": "#EEF4F3",
         "palette-font": "#5F5E61",
         "palette-line": "#CFD3D3",
-        "palette-cancel": "#F4F4F4"
+        "palette-cancel": "#F4F4F4",
+        "palette-404": "#DADADA",
+        "palette-darkLight": "#414040"
       }
     },
   },

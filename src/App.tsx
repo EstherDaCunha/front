@@ -1,9 +1,10 @@
 import "./index.css";
-import NotFound from "./pages/NotFound";
+import ScreenHelp from "./pages/help/index.tsx";
+
 function App() {
   return (
     <div>
-     <NotFound/>
+     <ScreenHelp/>
     </div>
   )
 }
