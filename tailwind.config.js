@@ -21,7 +21,8 @@ export default {
         "palette-line": "#CFD3D3",
         "palette-cancel": "#F4F4F4",
         "palette-404": "#DADADA",
-        "palette-darkLight": "#414040"
+        "palette-darkLight": "#414040",
+        "lyricsDark": "#969696"
       }
     },
   },

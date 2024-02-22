@@ -1,10 +1,10 @@
 import "./index.css";
-import ScreenHelp from "./pages/help/index.tsx";
+import Apresentation from "./pages/Apresentation/index.jsx";
 
 function App() {
   return (
     <div>
-     <ScreenHelp/>
+     <Apresentation />
     </div>
   )
 }
