@@ -1,10 +1,11 @@
 import NavBar from "../../components/NavBar"
+import Benefits from "../../components/Benefits"
 
 export default function Apresentation() {
     return (
-        <div className="bg-black w-full h-[100vh]">
+        <div className="bg-black w-full h-[200vh]">
             <NavBar />
-            <div className="flex mr-[4%]">
+            <div className="flex ">
                 <div className="h-[30em] items-center justify-center flex ">
                     <div>
                         <h1 className="text-white font-bold text-7xl mt-[3em]  ml-[3em]">TrackHub</h1>
@@ -16,6 +17,9 @@ export default function Apresentation() {
                                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </h2>
                         </div>
+                        <button>
+                            <img src="../../src/assets/Apresentation/SeeNow.png" className="w-[60%] ml-[115%] mt-[20%]"/>
+                        </button>
                     </div>
 
                 </div>
@@ -23,7 +27,7 @@ export default function Apresentation() {
                     <img src="../../src/assets/Apresentation/ilustration.png" className="" />
                 </div>
             </div>
-
+            <Benefits />
 
 
         </div>
