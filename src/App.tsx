@@ -1,10 +1,10 @@
 import "./index.css";
-import Apresentation from "./pages/Apresentation/index.jsx";
+import CardTask from "./components/task";
 
 function App() {
   return (
     <div>
-     <Apresentation />
+     <CardTask />
     </div>
   )
 }

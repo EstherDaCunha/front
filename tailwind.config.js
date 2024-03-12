@@ -22,7 +22,9 @@ export default {
         "palette-cancel": "#F4F4F4",
         "palette-404": "#DADADA",
         "palette-darkLight": "#414040",
-        "lyricsDark": "#969696"
+        "lyricsDark": "#969696",
+        "alert": "#FCD6D7",
+        "alertDark": "#ED0007"
       }
     },
   },
