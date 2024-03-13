@@ -1,10 +1,10 @@
+import Column from "./components/column";
 import "./index.css";
-import CardTask from "./components/task";
 
 function App() {
   return (
     <div>
-     <CardTask />
+      <Column />
     </div>
   )
 }

@@ -1,21 +1,18 @@
-export default function CardTask() {
+export default function Progress() {
     return (
         <main className="w-full">
-            <div className="m-10">
+            <div className="m-2">
                 <div className="border border-3 border-color: rgb(191 191 191); w-[20em] h-[11em] rounded shadow-lg">
                     <div className="flex space-x-[5em]">
                         <div className="m-3">
                             <h1 className="font-semibold text-lg">Data analysis</h1>
                             <h2 className="text-sm font-normal text-slate-400 opacity-1">Data for dashboard</h2>
                         </div>
-                        <div className="bg-alert w-[4em] h-[2em] m-5 rounded-lg ">
-                            <h1 className="text-alertDark font-bold m-1 ml-4">Late</h1>
-                        </div>
                     </div>
 
                     <div className="m-3">
-                        <div className="bg-alert w-[6em] h-[2em] rounded-lg">
-                            <h1 className="text-alertDark font-bold p-1 m-3">To start</h1>
+                        <div className="bg-yellow w-[8em] h-[2em] rounded-lg">
+                            <h1 className="text-yellowDark font-bold p-1 m-3">In Progress</h1>
                         </div>
                     </div>
                     <div className="flex m-3">

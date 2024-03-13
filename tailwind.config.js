@@ -24,7 +24,11 @@ export default {
         "palette-darkLight": "#414040",
         "lyricsDark": "#969696",
         "alert": "#FCD6D7",
-        "alertDark": "#ED0007"
+        "alertDark": "#ED0007",
+        "yellow": "#F4E8CC",
+        "yellowDark": "#FCB917",
+        "green": "#C1F4BD",
+        "greenDark": "#349D2A"
       }
     },
   },
