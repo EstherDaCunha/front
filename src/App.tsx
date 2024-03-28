@@ -1,10 +1,10 @@
-import Column from "./components/column";
+import Calendario from "./components/Calendar/Calendario";
 import "./index.css";
 
 function App() {
   return (
     <div>
-      <Column />
+      <Calendario />
     </div>
   )
 }
