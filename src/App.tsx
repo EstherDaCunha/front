@@ -1,5 +1,5 @@
-import Calendario from "./components/Calendar/Calendario";
 import "./index.css";
+import Calendario from "./components/Gantt";
 
 function App() {
   return (
