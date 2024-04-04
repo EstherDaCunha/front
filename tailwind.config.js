@@ -28,7 +28,10 @@ export default {
         "yellow": "#F4E8CC",
         "yellowDark": "#FCB917",
         "green": "#C1F4BD",
-        "greenDark": "#349D2A"
+        "greenDark": "#349D2A",
+        "ShowMore": "#F5F7FB",
+        "txtShowMore": "#8B8B8B",
+        "teamcolor": "#EBEBEB"
       }
     },
   },

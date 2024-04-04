@@ -1,10 +1,10 @@
 import "./index.css";
-import Calendario from "./components/Gantt";
+import Detail from "./components/Histórico/Detail";
 
 function App() {
   return (
     <div>
-      <Calendario />
+      <Detail />
     </div>
   )
 }

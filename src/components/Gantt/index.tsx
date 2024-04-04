@@ -51,7 +51,7 @@ export default function Calendario() {
             name: 'Componentes',
             id: "4",
             type: 'task',
-            progress: 60,
+            progress: 100,
             isDisabled: true,
             styles: { progressColor: '#9E2896', progressSelectedColor: '#ff9e0d' },
         },
