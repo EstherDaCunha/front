@@ -1,10 +1,15 @@
-import React from 'react';
-import { Gantt, Task } from 'gantt-task-react';
+import { useState } from 'react';
+import { Gantt, Task, ViewMode } from 'gantt-task-react';
 import "gantt-task-react/dist/index.css";
-// import { ViewMode } from "gantt-task-react";
 
 
 export default function Calendario() {
+    const [viewMode, setViewMode] = useState(ViewMode.Day);
+
+    const onViewModeChange = (mode: ViewMode) => {
+        setViewMode(mode);
+    };
+
 
     const tasks: Task[] = [
         {
@@ -44,7 +49,7 @@ export default function Calendario() {
             start: new Date(2024, 4, 5),
             end: new Date(2024, 4, 7),
             name: 'Componentes',
-            id: "3",
+            id: "4",
             type: 'task',
             progress: 60,
             isDisabled: true,
@@ -56,11 +61,24 @@ export default function Calendario() {
 
 
     return (
-        <div className='bg-gray-100 rounded-lg shadow-md p-4'>
-            {/* <button className='border border-palette-line w-[70px] h-[30px]' onClick={() => onViewModeChange(ViewMode.Week)}>Week</button> */}
+        <div className='p-4 w-[70em] h-[20em] space-y-5'>
+
+            <div>
+               <h1 className='font-bold text-2xl text-palette-gray mb-4'>Cronograma de Tasks</h1> 
+            </div>
+
+            <div className='space-x-5'>
+                <button onClick={() => onViewModeChange(ViewMode.Week)} className='bg-palette-blue w-[70px] h-[30px] text-white font-semibold rounded'>Week</button>
+                <button onClick={() => onViewModeChange(ViewMode.Day)} className='bg-palette-sea-green w-[70px] h-[30px] text-white font-semibold rounded'>Day</button>
+                <button onClick={() => onViewModeChange(ViewMode.Month)} className='bg-palette-pink w-[70px] h-[30px] text-white font-semibold rounded'>Month</button>
+            </div>
+
             <Gantt
                 tasks={tasks}
+                viewMode={viewMode}
             />
+            
+
         </div>
     )
 }
