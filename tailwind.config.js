@@ -31,7 +31,8 @@ export default {
         "greenDark": "#349D2A",
         "ShowMore": "#F5F7FB",
         "txtShowMore": "#8B8B8B",
-        "teamcolor": "#EBEBEB"
+        "teamcolor": "#EBEBEB",
+        "CategoryFluxo": "#256E0C"
       }
     },
   },

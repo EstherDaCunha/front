@@ -1,10 +1,11 @@
 import "./index.css";
-import Detail from "./components/Histórico/Detail";
+import Register from "./components/Histórico/Register";
 
 function App() {
   return (
-    <div>
-      <Detail />
+    <div className="flex space-x-5">
+      <Register />
+      <Register />
     </div>
   )
 }
