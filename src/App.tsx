@@ -1,9 +1,10 @@
 import "./index.css";
-import Register from "./components/Histórico/Register";
+import ThePagination from "./components/Search/Pagination";
+
 function App() {
   return (
     <div className="flex space-x-5">
-      <Register />
+      <ThePagination />
     </div>
   )
 }
