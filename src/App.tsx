@@ -1,10 +1,10 @@
 import "./index.css";
-import ThePagination from "./components/Search/Pagination";
+import Grafico from "./components/PieGrafico/Pie";
 
 function App() {
   return (
-    <div className="flex space-x-5">
-      <ThePagination />
+    <div>
+      <Grafico />
     </div>
   )
 }
